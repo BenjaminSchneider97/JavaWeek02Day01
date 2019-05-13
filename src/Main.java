@@ -39,12 +39,16 @@ public class Main {
          */
 
         // A03
-
         BankAccount account1 = new BankAccount(5000, 0);
+        BankAccount account2 = new BankAccount(6000,1);
+        BankAccount account3 = new BankAccount(7000,3);
 
-        BankAccount[] allAccounts = {account1};
+        BankAccount[] allAccounts = {account1, account2, account3};
 
-        account1.addMoney(5);
+        account1.addMoney(-5);
+        account2.withdrawMoney(500);
+        account3.addMoney(200);
+
 
         for (int i = 0; i < allAccounts.length; i++){
             allAccounts[i].getAccountBalance();

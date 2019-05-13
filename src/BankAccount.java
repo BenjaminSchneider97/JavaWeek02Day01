@@ -22,7 +22,6 @@ public class BankAccount {
         } else {
             accountBalance -= money;
         }
-
     }
 
     public void getAccountBalance(){
