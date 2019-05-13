@@ -7,5 +7,7 @@ public class MovieTicket {
     public GregorianCalendar time;
     public String movie;
     public int cinemahall;
+    // tickets
+    
 
 }
