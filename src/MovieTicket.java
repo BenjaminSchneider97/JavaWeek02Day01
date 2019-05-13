@@ -8,6 +8,5 @@ public class MovieTicket {
     public String movie;
     public int cinemahall;
     // tickets
-    
 
 }
