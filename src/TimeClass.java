@@ -23,7 +23,12 @@ public class TimeClass {
 
 
     public void addSecond(int addSecond){
-        this.second += addSecond;
+
+        int minute = addSecond/60;
+        int newsecond = addSecond%60;
+
+        this.second += newsecond;
+        this.minute += minute;
     }
 
     public void calcseconds(){
@@ -34,6 +39,7 @@ public class TimeClass {
     public void printTime(){
         System.out.println(this.hour + ":" + this.minute + ":" + this.second);
     }
+
 
 
 }
