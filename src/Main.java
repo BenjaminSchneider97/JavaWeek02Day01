@@ -57,10 +57,10 @@ public class Main {
 */
 
         // A4
-        TimeClass time1 = new TimeClass(14, 46, 10);
+        TimeClass time1 = new TimeClass(23, 59, 10);
 
         time1.printTime();
-        time1.addSecond(5);
+        time1.addSecond(60);
         time1.printTime();
 
 
