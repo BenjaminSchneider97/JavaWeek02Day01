@@ -40,6 +40,16 @@ public class Main {
 
         // A03
 
+        BankAccount account1 = new BankAccount(5000, 0);
+
+        BankAccount[] allAccounts = {account1};
+
+        account1.withdrawMoney(5001);
+
+        for (int i = 0; i < allAccounts.length; i++){
+            allAccounts[i].getAccountBalance();
+        }
+
 
     }
 }
