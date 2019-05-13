@@ -2,6 +2,7 @@ import java.util.GregorianCalendar;
 import java.time.LocalTime;
 
 
+// A01
 public class movies {
 
     double price;
