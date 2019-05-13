@@ -13,7 +13,11 @@ public class BankAccount {
     }
 
     public void withdrawMoney(double money){
+        if (accountBalance < money) {
+            System.out.println("insufficient account balance: " + accountBalance);
+        } 
         accountBalance -= money;
+
     }
 
     public void getAccountBalance(){
@@ -22,6 +26,7 @@ public class BankAccount {
         } else {
             System.out.println("Account balance after transaction: " + accountBalance);
         }
+
     }
 
 }
