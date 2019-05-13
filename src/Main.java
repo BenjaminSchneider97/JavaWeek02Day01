@@ -24,9 +24,17 @@ public class Main {
         movies m4 = new movies (6.9, "2019-05-13" ,"19:30" , "Avengers", 8);
 
         movies[] allMovies = {m1,m2,m3,m4};
-        for ( int i = 0; i <allMovies.length; i++){
-            allMovies[i].getTotalPrice();
+
+        for(int i = 0; i < allMovies.length; i++){
+            allMovies[i].getAllMovies();
         }
 
+        double totalprice = 0;
+
+        for ( int i = 0; i <allMovies.length; i++){
+            totalprice += allMovies[i].price;
+        }
+
+        System.out.println("The total price is: " + totalprice);
     }
 }

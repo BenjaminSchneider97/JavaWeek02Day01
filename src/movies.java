@@ -18,12 +18,7 @@ public class movies {
         this.hall = hall;
 
     }
-    public double getTotalPrice(){
-        double totalPrice = 0;
-        return totalPrice += this.price;
-        System.out.println("Total Price: " + totalPrice);
-
+    public void getAllMovies(){
+        System.out.println("Movie Name: \"" + this.movie + "\"" + ", Price: " + this.price + ", Date and Time: " + this.date + " " + this.time + ", in Hall " + this.hall);
     }
-
-
 }
