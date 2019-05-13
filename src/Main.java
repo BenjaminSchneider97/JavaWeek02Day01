@@ -44,7 +44,7 @@ public class Main {
 
         BankAccount[] allAccounts = {account1};
 
-        account1.withdrawMoney(5001);
+        account1.addMoney(5);
 
         for (int i = 0; i < allAccounts.length; i++){
             allAccounts[i].getAccountBalance();

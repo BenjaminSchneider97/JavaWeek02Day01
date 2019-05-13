@@ -9,14 +9,19 @@ public class BankAccount {
     }
 
     public void addMoney(double money){
-        accountBalance += money;
+        if(money < 0){
+            System.out.println("You can't add negative numbers to your bank account!");
+        } else {
+            accountBalance += money;
+        }
     }
 
     public void withdrawMoney(double money){
         if (accountBalance < money) {
-            System.out.println("insufficient account balance: " + accountBalance);
-        } 
-        accountBalance -= money;
+            System.out.println("insufficient account balance, can't withdraw money!");
+        } else {
+            accountBalance -= money;
+        }
 
     }
 
