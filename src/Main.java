@@ -38,6 +38,7 @@ public class Main {
         System.out.println("The total price is: " + totalprice);
          */
 
+        /*
         // A03
         BankAccount account1 = new BankAccount(5000, 0);
         BankAccount account2 = new BankAccount(6000,1);
@@ -53,6 +54,12 @@ public class Main {
         for (int i = 0; i < allAccounts.length; i++){
             allAccounts[i].getAccountBalance();
         }
+*/
+
+        // A4
+        TimeClass time1 = new TimeClass(14, 46, 11);
+        time1.addSecond(30);
+        time1.printTime();
 
 
     }
