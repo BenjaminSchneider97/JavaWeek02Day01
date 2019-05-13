@@ -19,6 +19,7 @@ public class movies {
 
     }
     public void getAllMovies(){
-        System.out.println("Movie Name: \"" + this.movie + "\"" + ", Price: " + this.price + ", Date and Time: " + this.date + " " + this.time + ", in Hall " + this.hall);
+      //  System.out.println("Movie Name: \"" + this.movie + "\"" + ", Price: " + this.price + ", Date and Time: " + this.date + " " + this.time + ", in Hall " + this.hall);
+        System.out.println(" Price: " + this.price );
     }
 }

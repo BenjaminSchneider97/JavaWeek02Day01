@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        /*
+        /* A00
         Person person1 = new Person("Jenny", "Tang");
         Person person2 = new Person("Benjamin", "Schneider");
         Person person3 = new Person("Simon", "Blaha");
@@ -17,7 +17,7 @@ public class Main {
         } */
 
 
-
+        /* A01
         movies m1 = new movies (8.9, "2019-05-13" ,"16:30" , "Avengers 4", 1);
         movies m2 = new movies (9.9, "2019-05-14" ,"17:30" , "Avengers 3", 2);
         movies m3 = new movies (7.9, "2019-05-15" ,"18:30" , "Avengers 2", 5);
@@ -36,5 +36,8 @@ public class Main {
         }
 
         System.out.println("The total price is: " + totalprice);
+         */
+
+
     }
 }
