@@ -38,6 +38,8 @@ public class Main {
         System.out.println("The total price is: " + totalprice);
          */
 
+        // A03
+
 
     }
 }
